@@ -103,6 +103,8 @@ def playAgain():
     goAgain = input('\nDo you want to play again?\nEnter "Y" for Yes or "N" for No: ').upper()
     if goAgain == 'N':
         return False
+    else:
+        return True
 
 print('Welcome to Rock, Paper, Scissors!')
 player_name = input('Enter your name: ')
